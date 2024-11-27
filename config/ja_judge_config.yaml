@@ -5,7 +5,7 @@ bench_name: arena-hard-v0.1-ja
 # Arena Hard default
 judge_model: gpt-4o-2024-11-20
 reference: False # Optional
-ref_model: null  
+ref_model: null
 
 baseline: True
 baseline_model: gpt-4o-2024-11-20
@@ -24,3 +24,4 @@ prompt_template: ["<|User Prompt|>\n{question_1}\n\n<|The Start of Assistant A's
 # Add your model below for evaluation
 model_list:
   - gpt-3.5-turbo-0125
+  - lightblue__qarasu-refreshed
