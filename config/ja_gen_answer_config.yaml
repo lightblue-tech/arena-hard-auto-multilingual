@@ -10,5 +10,3 @@ num_choices: 1
 model_list:
   - gpt-3.5-turbo-0125
   - gpt-4o-2024-11-20
-  - lightblue__qarasu-refreshed
-  - Qwen__Qwen2.5-7B-Instruct

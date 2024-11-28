@@ -13,30 +13,7 @@ gpt-3.5-turbo-0125:
     model_name: gpt-3.5-turbo-0125
     endpoints: null
     api_type: openai
-    parallel: 16
-
-gpt-4o-2024-11-20:
-    model_name: gpt-4o-2024-11-20
-    endpoints: null
-    api_type: openai
-    parallel: 16
-
-lightblue__qarasu-refreshed:
-    model_name: lightblue/qarasu-refreshed
-    endpoints:
-        - api_base: http://0.0.0.0:8000/v1
-          api_key: abcde
-    api_type: openai
-    parallel: 16
-    system_prompt: You are a helpful assistant
-
-Qwen__Qwen2.5-7B-Instruct:
-    model_name: Qwen/Qwen2.5-7B-Instruct
-    endpoints:
-        - api_base: http://0.0.0.0:8000/v1
-          api_key: abcde
-    api_type: openai
-    parallel: 64
+    parallel: 8
 
 gpt-4-0314:
     model_name: gpt-4-0314
